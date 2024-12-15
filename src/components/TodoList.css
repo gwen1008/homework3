@@ -1,0 +1,71 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* 頁面背景設為純白 */
+    margin: 0;
+    padding: 0;
+}
+
+.todolist-container {
+    background-color:  rgba(255, 255, 255, 0.9); /* 容器背景設為米色 */
+    border-radius: 8px; /* 圓角邊框 */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 陰影增加層次感 */
+    margin: 30px auto; /* 垂直外邊距，水平置中 */
+    max-width: 600px; /* 最大寬度 */
+}
+
+.todolist-header {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Input Section */
+.input-group {
+    display: flex;
+    flex-direction: row;
+    gap: 5px; /* 輸入框和按鈕之間的間距 */
+    margin-bottom: 20px;
+}
+
+.input-group input {
+    font-size: 1.2rem;
+    flex-grow: 1;
+    padding: 12px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+.input-group button {
+    background-color: #5a5a5a; /* 深灰色按鈕 */
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.input-group button:hover {
+    background-color: #444; /* 按鈕 hover 顏色 */
+}
+
+/* To-Do List Items */
+.list-group-item {
+    background-color: #ffffff; /* 每個待辦事項背景設為白色 */
+    border: 1px solid #ddd; /* 加邊框 */
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-group-item .btn {
+    font-size: 0.9rem;
+    padding: 6px 12px;
+    margin-left: 5px;
+}
+

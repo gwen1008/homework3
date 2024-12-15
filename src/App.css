@@ -1,0 +1,45 @@
+.app-container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin-left: 10px;
+  padding: 20px;
+}
+
+header {
+  background-color: #f0f8ff;
+  padding: 0px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+header h1 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.navigation {
+  margin: 30px 20px; /* 調整按鈕區塊外邊距，與邊界保持距離 */
+}
+
+.navigation button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #ffffff;
+  color: #343a40;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.navigation button:hover {
+  background-color: #b6d4ff;
+}
+
+.navigation button.active {
+  background-color: #b6d4ff;
+}
+
+main {
+  margin: 20px;
+}
